@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register Codewave System</title>
+</head>
+ <h1>Register to CodeWave Software House Management System</h1>
+<body>
+    <header>
+        
+    <h2>Create new account</h2>
+    <nav>
+        <a href="index.html">Home</a>   |
+        <a href="Login.html">Login</a>   |
+        <a href="Register.html">Register</a>   |
+
+    </nav>
+    </header>
+    <hr/>
+    <section>
+        <h2>Registration Form</h2>
+
+        <form>
+            <label> Full Name : </label>
+            <br/>
+            <input type="text" name="name" required><br><br>
+
+            <label>Email : </label>
+            <br/>
+            <input type="email" name="email" required><br><br>
+
+            <label>Password : </label>
+            <br/>
+            <input type="password" name="password" required>
+            <br><br>
+
+            <label>Confirm Password : </label>
+            <br/>
+            <input type="password" name="confirm_password" required>
+            <br><br>
+
+            <label>Select Role : </label>
+            <br/>
+            <select name="role" required>
+                <option value="">-- Select Role --</option>
+                <option value="Admin">Admin</option>
+                <option value="Employee">Employee</option>
+                <option value="Client">Client</option>
+            </select>
+            <br><br>
+
+            <label>Gender : </label>
+            <br/>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female" required> Female
+            <input type="radio" name
+="gender" value="Other" required> Other
+            <br><br>
+
+            <input type="checkbox" name="terms" required> I agree to the <a href="#">Terms and Conditions</a>
+            <br><br>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+    </section>
+
+    <hr/>
+    <footer style="text-align: center; padding: 20px; background-color: #f0f0f0;">
+        <p>&copy; 2026 CodeWave Software House. All rights reserved.</p>
+</body>
+</html>
