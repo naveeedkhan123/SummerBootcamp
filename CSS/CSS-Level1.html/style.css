@@ -1,0 +1,54 @@
+.myclass{
+    color: red;
+    font-weight: bolder;
+}
+
+p{
+    color: blueviolet;
+    font-weight: bold;
+    line-height: 3opx;
+    text-transform: capitalize;
+}
+
+button{
+    color: black;
+    background-color: rgb(185, 85, 51);
+}
+
+
+#headingthree{
+    color: blueviolet;
+}
+
+#headingfour{ 
+    color:aqua;
+}
+
+#box{
+    color: blue;
+    background-color: aquamarine;
+}
+
+.textclass{
+    text-align: left;
+    background-color: cadetblue;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#task{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#outer{
+    font-size: 30px;
+}
+
+#inner{
+    font-size: 15px;
+}
