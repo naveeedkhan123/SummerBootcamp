@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding: 25px;
+    display: inline-block;
+}
+button{
+    display: block;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+.navbar{
+    background-color:#131921;
+    color:white;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.location,
+.account,
+.orders,
+.cart{
+    cursor:pointer;
+}
+
+.location p,
+.account p,
+.orders p{
+    font-weight:bold;
+}
+
+.search-box{
+    display:flex;
+    width:50%;
+    height:40px;
+}
+
+.search-box select{
+    width:60px;
+    border:none;
+    padding:5px;
+    background:#ddd;
+}
+
+.search-box input{
+    flex:1;
+    border:none;
+    padding:10px;
+    font-size:10px;
+}
+
+.search-box button{
+    width:50px;
+    border:none;
+    background:#febd69;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.cart{
+    font-size:20px;
+    font-weight:bold;
+}
