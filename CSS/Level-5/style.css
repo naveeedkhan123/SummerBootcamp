@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:steps(4) ;
+    transition-delay: 1s;
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+
+}
+div:hover {
+    background-color: #8a2be2;
+    color: antiquewhite;
+    transform: rotate 188deg; ;
+
+}
+
+div:active {
+    background-color: yellow;
+}
+
+
+
+@keyframes colorAnimation{
+    from{background-color: crimson; }
+    to {background-color: aqua;}
+}
