@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url(Bmw3.jpg);
+    position: fixed;
+    bottom: 70px;
+    right: 0px;
+    color: aliceblue;
+    font-size: larger;
+}
