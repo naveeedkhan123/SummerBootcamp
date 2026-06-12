@@ -1,0 +1,52 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+display: inline-block;
+}
+
+#box1{
+    position: static;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    z-index: 2;
+}
+#box3{
+    position: absolute;
+    right: 5px;
+}
+#box4{
+    position: relative;
+    z-index: 3;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background-image: ;
+    border: 2px solid black;
+display: inline-block;
+}
+#img1{
+    background-image: url(Bmw2.jpg);
+    background-size: contain;
+}
+#img2{
+    background-image: url(Bmw3.jpg);
+    background-size: cover;
+}
+
+#img3{
+    background-image: url(Cat1.jpg);
+    background-size: cover;
+}
+
+#img4{
+    background-image: url(Cat1.jpg);
+    background-size: cover;
+}
