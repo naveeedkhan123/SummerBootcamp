@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-100">
+    <!-- NAVBAR -->
+
+    <header class="bg-gray-900 text-white">
+
+  <div class="flex items-center justify-between px-4 py-3">
+
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-yellow-400">
+      amazon
+    </div>
+
+    <!-- Search -->
+    <div class="flex flex-1 mx-4">
+      <input type="text" placeholder="Search products"
+      class="w-full p-2 rounded-l-md text-black">
+
+      <button class="bg-yellow-400 px-4 rounded-r-md">
+        Search
+      </button>
+    </div>
+
+    <!-- Right menu -->
+    <div class="flex gap-6 text-sm">
+      <div>Login</div>
+      <div>Orders</div>
+      <div>Cart 🛒</div>
+    </div>
+
+  </div>
+
+  <!-- SECOND NAV -->
+  <div class="bg-gray-800 px-4 py-2 text-sm flex gap-6">
+    <a href="#">All</a>
+    <a href="#">Mobiles</a>
+    <a href="#">Fashion</a>
+    <a href="#">Electronics</a>
+    <a href="#">Home</a>
+    <a href="#">Today's Deals</a>
+  </div>
+</header>
+
+
+<!-- HERO BANNER -->
+<section class="relative">
+
+  <img src="https://images.pexels.com/photos/30742316/pexels-photo-30742316.jpeg"
+  class="w-full h-[500px] object-cover">
+
+  <div class="absolute bottom-10 left-10 bg-white p-6 rounded-lg shadow-lg">
+    <h1 class="text-2xl font-bold">Big Billion Sale</h1>
+    <p class="text-gray-600 font-bold">Up to 70% off on electronics</p>
+  </div>
+
+</section>
+
+<!-- PRODUCT GRID -->
+<section class="max-w-7xl mx-auto py-10 px-4">
+
+  <h2 class="text-2xl font-bold mb-6">Top Deals</h2>
+
+  <div class="grid md:grid-cols-4 gap-6">
+
+     <!-- CARD 1 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">iPhone 15</h3>
+      <p class="text-gray-600 font-bold">$999</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+     <!-- CARD 2 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Laptop</h3>
+      <p class="text-gray-600 font-bold">$1200</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Headphones</h3>
+      <p class="text-gray-600 font-bold">$199</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+     <!-- CARD 4 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Smart Watch</h3>
+      <p class="text-gray-600 font-bold">$299</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.pexels.com/photos/7858743/pexels-photo-7858743.jpeg"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Gaming PCs</h3>
+      <p class="text-gray-600 font-bold">$1099</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.pexels.com/photos/11398246/pexels-photo-11398246.jpeg"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Headphones</h3>
+      <p class="text-gray-600 font-bold">$1099</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- CARD 7 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.pexels.com/photos/35296240/pexels-photo-35296240.jpeg"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Laptops</h3>
+      <p class="text-gray-600 font-bold">$1099</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- CARD 8 -->
+    <div class="bg-white p-4 shadow rounded-lg">
+      <img src="https://images.pexels.com/photos/26551186/pexels-photo-26551186.jpeg"
+      class="h-40 w-full object-cover rounded">
+
+      <h3 class="mt-3 font-bold">Bikes</h3>
+      <p class="text-gray-600 font-bold">$100099</p>
+      <button class="mt-3 bg-yellow-400 w-full py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- CATEGORY SECTION -->
+<section class="bg-white py-10">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
+
+    <div class="grid md:grid-cols-5 gap-4 text-center">
+        <div class="p-6 bg-gray-100 rounded-lg">Electronics</div>
+      <div class="p-6 bg-gray-100 rounded-lg">Fashion</div>
+      <div class="p-6 bg-gray-100 rounded-lg">Home</div>
+      <div class="p-6 bg-gray-100 rounded-lg">Beauty</div>
+      <div class="p-6 bg-gray-100 rounded-lg">Books</div>
+
+    </div>
+
+  </div>
+
+</section>
+</body>
+</html>
