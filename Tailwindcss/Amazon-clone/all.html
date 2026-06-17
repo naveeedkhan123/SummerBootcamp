@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Categories - Amazon Clone</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- NAVBAR -->
+<header class="bg-[#131921] text-white sticky top-0 z-50">
+
+    <!-- Top Navbar -->
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4 px-4 py-3">
+
+        <!-- Logo -->
+        <a href="index.html" class="text-3xl font-bold text-yellow-400">
+            amazon
+        </a>
+
+        <!-- Search -->
+        <div class="flex flex-1 min-w-[250px]">
+            <input
+            type="text"
+            placeholder="Search Amazon"
+            class="w-full p-3 outline-none text-black rounded-l-md">
+
+            <button class="bg-yellow-400 px-6 rounded-r-md text-black font-semibold hover:bg-yellow-500">
+                Search
+            </button>
+        </div>
+
+        <!-- Right -->
+        <div class="flex gap-6 text-sm">
+
+            <div>
+                <p>Hello, Sign In</p>
+                <h3 class="font-bold">Account</h3>
+            </div>
+
+            <div>
+                <p>Returns</p>
+                <h3 class="font-bold">& Orders</h3>
+            </div>
+
+            <div class="font-bold text-lg">
+                🛒 Cart
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Menu -->
+    <div class="bg-[#232F3E] py-3 px-4">
+
+        <div class="max-w-7xl mx-auto flex gap-6 overflow-x-auto">
+
+            <a href="all.html" class="font-bold text-yellow-400">All</a>
+            <a href="mobiles.html">Mobiles</a>
+            <a href="fashion.html">Fashion</a>
+            <a href="electronics.html">Electronics</a>
+            <a href="home.html">Home</a>
+            <a href="deals.html">Today's Deals</a>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- HERO SECTION -->
+
+<section class="bg-gradient-to-r from-yellow-400 to-orange-500 py-20">
+
+    <div class="max-w-7xl mx-auto text-center">
+
+        <h1 class="text-5xl font-bold mb-5">
+            Shop By Categories
+        </h1>
+
+        <p class="text-lg">
+            Discover millions of products at amazing prices.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- MAIN SECTION -->
+
+<section class="max-w-7xl mx-auto py-12 px-4">
+
+<div class="grid lg:grid-cols-4 gap-8">
+
+<!-- SIDEBAR -->
+
+<div class="bg-white p-6 rounded-xl shadow h-fit">
+
+    <h2 class="text-2xl font-bold mb-6">
+        Filters
+    </h2>
+
+    <div class="mb-8">
+
+        <h3 class="font-bold mb-3">
+            Category
+        </h3>
+
+        <div class="space-y-2 text-gray-600">
+
+            <p>✔ Mobiles</p>
+            <p>✔ Fashion</p>
+            <p>✔ Electronics</p>
+            <p>✔ Home</p>
+            <p>✔ Books</p>
+            <p>✔ Beauty</p>
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <h3 class="font-bold mb-3">
+            Price
+        </h3>
+
+        <div class="space-y-2 text-gray-600">
+
+            <p>Under $100</p>
+            <p>$100 - $500</p>
+            <p>$500 - $1000</p>
+            <p>Above $1000</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- CATEGORY SECTION -->
+
+<div class="lg:col-span-3">
+
+<h2 class="text-3xl font-bold mb-8">
+    All Categories
+</h2>
+
+<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+<!-- CARD 1 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Mobiles
+</h3>
+
+<p class="text-gray-500 mt-3">
+Latest smartphones and accessories.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+<!-- CARD 2 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Fashion
+</h3>
+
+<p class="text-gray-500 mt-3">
+Trending clothes and accessories.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Electronics
+</h3>
+
+<p class="text-gray-500 mt-3">
+Laptops, cameras and gadgets.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+<!-- CARD 4 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Home & Kitchen
+</h3>
+
+<p class="text-gray-500 mt-3">
+Furniture and home essentials.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+<!-- CARD 5 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Books
+</h3>
+
+<p class="text-gray-500 mt-3">
+Educational and best-selling books.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+<!-- CARD 6 -->
+
+<div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-2xl duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1000"
+class="h-56 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">
+Beauty
+</h3>
+
+<p class="text-gray-500 mt-3">
+Cosmetics and skincare products.
+</p>
+
+<button class="bg-yellow-400 px-5 py-2 rounded mt-5 hover:bg-yellow-500">
+Shop Now
+</button>
+
+</div>
+
+</div>
+
+</div> <!-- end grid -->
+
+</div> <!-- end right section -->
+
+</div> <!-- end main grid -->
+
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="max-w-7xl mx-auto py-16 px-4">
+
+<h2 class="text-3xl font-bold mb-8">
+Featured Products
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="bg-white p-4 rounded shadow hover:shadow-xl">
+<h3 class="font-bold">iPhone 15</h3>
+<p class="text-gray-600">$999</p>
+</div>
+
+<div class="bg-white p-4 rounded shadow hover:shadow-xl">
+<h3 class="font-bold">MacBook Pro</h3>
+<p class="text-gray-600">$1999</p>
+</div>
+
+<div class="bg-white p-4 rounded shadow hover:shadow-xl">
+<h3 class="font-bold">Nike Shoes</h3>
+<p class="text-gray-600">$120</p>
+</div>
+
+<div class="bg-white p-4 rounded shadow hover:shadow-xl">
+<h3 class="font-bold">Smart Watch</h3>
+<p class="text-gray-600">$299</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- NEWSLETTER -->
+<section class="bg-yellow-400 py-12">
+
+<div class="max-w-4xl mx-auto text-center px-4">
+
+<h2 class="text-3xl font-bold mb-4">
+Subscribe for Deals
+</h2>
+
+<p class="mb-6">
+Get latest offers and discounts directly in your email.
+</p>
+
+<div class="flex flex-col md:flex-row gap-4">
+
+<input type="email" placeholder="Enter Email"
+class="w-full p-3 rounded">
+
+<button class="bg-black text-white px-6 py-3 rounded">
+Subscribe
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-10">
+
+<div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 px-6">
+
+<div>
+<h2 class="text-xl font-bold text-yellow-400">Amazon Clone</h2>
+<p class="text-gray-400 mt-2">
+Practice project using Tailwind CSS
+</p>
+</div>
+
+<div>
+<h3 class="font-bold mb-2">Company</h3>
+<p>About</p>
+<p>Careers</p>
+<p>Blog</p>
+</div>
+
+<div>
+<h3 class="font-bold mb-2">Help</h3>
+<p>Support</p>
+<p>Returns</p>
+<p>Privacy</p>
+</div>
+
+<div>
+<h3 class="font-bold mb-2">Contact</h3>
+<p>info@amazonclone.com</p>
+<p>+92 300 0000000</p>
+</div>
+
+</div>
+
+<div class="text-center text-gray-500 mt-6">
+© 2026 Amazon Clone Project
+</div>
+
+</footer>
+
+</body>
+</html>
