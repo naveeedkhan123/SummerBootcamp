@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electronics - Amazon Clone</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- NAVBAR -->
+<header class="bg-[#131921] text-white sticky top-0 z-50">
+
+  <div class="flex items-center justify-between px-6 py-3">
+
+    <a href="index.html" class="text-yellow-400 text-3xl font-bold">
+      amazon
+    </a>
+
+    <input type="text"
+    placeholder="Search electronics..."
+    class="w-1/2 p-2 rounded text-black hidden md:block">
+
+    <div class="flex gap-6 text-sm">
+      <a href="#">Login</a>
+      <a href="#">Orders</a>
+      <a href="#">Cart 🛒</a>
+    </div>
+
+  </div>
+
+  <div class="bg-[#232F3E] px-6 py-2 flex gap-6 text-sm overflow-x-auto">
+    <a href="all.html">All</a>
+    <a href="mobile.html">Mobiles</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="electronics.html" class="text-yellow-400 font-bold">Electronics</a>
+    <a href="home.html">Home</a>
+    <a href="deals.html">Deals</a>
+  </div>
+
+</header>
+
+<!-- HERO -->
+<section class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white text-center py-16">
+
+  <h1 class="text-5xl font-bold">Electronics Store</h1>
+  <p class="mt-3 text-lg">Latest gadgets, laptops & accessories</p>
+
+</section>
+
+<!-- CONTENT -->
+<section class="max-w-7xl mx-auto py-12 px-4 grid md:grid-cols-4 gap-6">
+
+<!-- FILTER -->
+<aside class="bg-white p-6 rounded-xl shadow h-fit">
+
+  <h2 class="text-2xl font-bold mb-4">Filters</h2>
+
+  <p class="font-semibold mb-2">Category</p>
+  <p>✔ Laptops</p>
+  <p>✔ Headphones</p>
+  <p>✔ Cameras</p>
+  <p>✔ Smart Watches</p>
+
+  <hr class="my-4">
+
+  <p class="font-semibold mb-2">Price</p>
+  <p>Under $200</p>
+  <p>$200 - $800</p>
+  <p>$800+</p>
+
+</aside>
+
+<!-- PRODUCTS -->
+<div class="md:col-span-3">
+
+<h2 class="text-3xl font-bold mb-6">Top Electronics</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<!-- CARD 1 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Gaming Laptop</h3>
+    <p class="text-gray-600">$1200</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- CARD 2 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Smart Watch</h3>
+    <p class="text-gray-600">$250</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- CARD 3 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Headphones</h3>
+    <p class="text-gray-600">$180</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- CARD 4 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Digital Camera</h3>
+    <p class="text-gray-600">$650</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- CARD 5 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Tablet</h3>
+    <p class="text-gray-600">$400</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- CARD 6 -->
+<div class="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden">
+  <img src="https://images.pexels.com/photos/36680543/pexels-photo-36680543.jpeg"
+  class="h-52 w-full object-cover">
+
+  <div class="p-4">
+    <h3 class="font-bold">Smartphone</h3>
+    <p class="text-gray-600">$799</p>
+    <button class="mt-3 bg-yellow-400 w-full py-2 rounded hover:bg-yellow-500">
+      Add to Cart
+    </button>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-10 mt-10">
+
+  <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 px-6">
+
+    <div>
+      <h2 class="text-xl font-bold text-yellow-400">Amazon Clone</h2>
+      <p class="text-gray-400 mt-2">Practice project</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Company</h3>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Blog</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Help</h3>
+      <p>Support</p>
+      <p>Returns</p>
+      <p>Privacy</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Contact</h3>
+      <p>info@amazonclone.com</p>
+      <p>+92 300 0000000</p>
+    </div>
+
+  </div>
+
+  <div class="text-center text-gray-500 mt-6">
+    © 2026 Amazon Clone Project
+  </div>
+
+</footer>
+
+</body>
+</html>
