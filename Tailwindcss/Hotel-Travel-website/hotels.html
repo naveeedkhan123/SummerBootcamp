@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotels - TravelGo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold text-blue-600">TravelGo</h1>
+
+    <nav class="space-x-6 hidden md:flex">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="hotels.html" class="text-blue-600 font-semibold">Hotels</a>
+      <a href="flights.html" class="hover:text-blue-500 ">Flights</a>
+                <a href="offers.html" class="hover:text-blue-500 ">Offers</a>
+                <a href="contact.html" class="hover:text-blue-500 ">Contacts</a>
+    </nav>
+
+    <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
+      Login
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="bg-blue-600 text-white py-16 text-center mb-1.5">
+  <h1 class="text-5xl font-bold mb-4">Find Your Dream Hotel</h1>
+  <p class="text-lg">Luxury stays, affordable rooms and unforgettable experiences.</p>
+</section>
+
+<!-- Search -->
+<section class="max-w-7xl mx-auto bg-white shadow-lg rounded-xl p-6 m-auto relative z-10">
+  <div class="grid md:grid-cols-4 gap-4">
+
+    <input type="text"
+    placeholder="Location"
+    class="border p-3 rounded-lg outline-blue-500">
+
+    <input type="date"
+    class="border p-3 rounded-lg">
+
+    <input type="date"
+    class="border p-3 rounded-lg">
+
+    <button class="bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Search Hotels
+    </button>
+
+  </div>
+</section>
+
+<!-- Hotels -->
+<section class="max-w-7xl mx-auto py-16 px-5">
+
+<h2 class="text-3xl font-bold mb-10">Popular Hotels</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<!-- Card 1 -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl duration-300">
+
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1000"
+class="h-64 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">Royal Palace Hotel</h3>
+
+<p class="text-gray-500 mt-2">
+Dubai, United Arab Emirates
+</p>
+
+<div class="flex justify-between mt-4">
+<span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+<span class="font-bold text-blue-600">$180/Night</span>
+</div>
+
+<button class="mt-6 w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700">
+Book Now
+</button>
+
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl duration-300">
+
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1000"
+class="h-64 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">Sea View Resort</h3>
+
+<p class="text-gray-500 mt-2">
+Maldives
+</p>
+
+<div class="flex justify-between mt-4">
+<span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+<span class="font-bold text-blue-600">$250/Night</span>
+</div>
+
+<button class="mt-6 w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700">
+Book Now
+</button>
+
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl duration-300">
+
+<img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1000"
+class="h-64 w-full object-cover">
+
+<div class="p-5">
+
+<h3 class="text-2xl font-bold">Mountain Paradise</h3>
+
+<p class="text-gray-500 mt-2">
+Switzerland
+</p>
+
+<div class="flex justify-between mt-4">
+<span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+<span class="font-bold text-blue-600">$300/Night</span>
+</div>
+
+<button class="mt-6 w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700">
+Book Now
+</button>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- Features -->
+<section class="bg-white py-20">
+<div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center px-5">
+
+<div>
+<h3 class="text-5xl mb-3">🏨</h3>
+<h4 class="font-bold text-xl">500+ Hotels</h4>
+<p class="text-gray-500 mt-2">Luxury and budget hotels available.</p>
+</div>
+
+<div>
+<h3 class="text-5xl mb-3">✈️</h3>
+<h4 class="font-bold text-xl">Worldwide Travel</h4>
+<p class="text-gray-500 mt-2">Explore destinations across the globe.</p>
+</div>
+
+<div>
+<h3 class="text-5xl mb-3">💳</h3>
+<h4 class="font-bold text-xl">Secure Payment</h4>
+<p class="text-gray-500 mt-2">100% safe and trusted payment methods.</p>
+</div>
+
+<div>
+<h3 class="text-5xl mb-3">⭐</h3>
+<h4 class="font-bold text-xl">Best Ratings</h4>
+<p class="text-gray-500 mt-2">Trusted by thousands of travelers.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-10">
+
+<div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 px-5">
+
+<div>
+<h2 class="text-3xl font-bold text-white mb-4">
+TravelGo
+</h2>
+
+<p>
+Book hotels and enjoy memorable experiences worldwide.
+</p>
+</div>
+
+<div>
+<h3 class="text-xl font-bold text-white mb-4">
+Company
+</h3>
+
+<ul class="space-y-2">
+<li>About Us</li>
+<li>Hotels</li>
+<li>Offers</li>
+<li>Contact</li>
+</ul>
+
+</div>
+
+<div>
+<h3 class="text-xl font-bold text-white mb-4">
+Support
+</h3>
+
+<ul class="space-y-2">
+<li>FAQs</li>
+<li>Help Center</li>
+<li>Privacy Policy</li>
+<li>Terms & Conditions</li>
+</ul>
+
+</div>
+
+<div>
+<h3 class="text-xl font-bold text-white mb-4">
+Newsletter
+</h3>
+
+<input type="email"
+placeholder="Enter Email"
+class="w-full p-3 rounded-lg text-black">
+
+<button class="bg-blue-600 mt-3 w-full py-3 rounded-lg text-white hover:bg-blue-700">
+Subscribe
+</button>
+
+</div>
+
+</div>
+
+<div class="border-t border-gray-700 mt-10 pt-5 text-center">
+© 2026 TravelGo. All Rights Reserved.
+</div>
+
+</footer>
+
+</body>
+</html>
