@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather UI</title>
+<link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600">
+
+  <!-- Glass Card -->
+  <div class="w-90 p-6 rounded-2xl bg-white/20 backdrop-blur-lg shadow-xl text-white">
+
+    <!-- City -->
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">Abbottabad</h2>
+      <p class="text-1xl text-white/80">Pakistan</p>
+    </div>
+
+    <!-- Icon + Temp -->
+    <div class="flex flex-col items-center mt-6">
+      <div class="text-6xl mb-2">☀️</div>
+      <h1 class="text-5xl font-bold mt-2">28°C</h1>
+      <p class="text-white/80">Sunny</p>
+    </div>
+
+    <!-- Details -->
+    <div class="grid grid-cols-3 gap-3 mt-6 text-center text-sm">
+
+      <div>
+        <p class="text-white/70">Humidity</p>
+        <p class="font-bold">60%</p>
+      </div>
+
+      <div>
+        <p class="text-white/70">Wind</p>
+        <p class="font-bold">12 km/h</p>
+      </div>
+
+      <div>
+        <p class="text-white/70">UV</p>
+        <p class="font-bold">High</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
