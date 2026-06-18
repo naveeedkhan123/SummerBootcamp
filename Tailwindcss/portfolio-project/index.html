@@ -65,7 +65,7 @@
 
   <h2 class="text-3xl font-bold text-center mb-10">About Me</h2>
 
-  <div class="border bg-sky-100 p-8 rounded-2xl shadow-md text-center">
+  <div class="border border-sky-400 bg-sky-100 p-8 rounded-2xl shadow-md text-center">
     <p class="text-gray-600 leading-relaxed font-medium">
       I am a BS Software Engineering student with strong interest in modern web development.
       I enjoy building responsive UI using Tailwind CSS and learning new technologies.
@@ -105,16 +105,16 @@
 
   <div class="grid md:grid-cols-3 gap-6">
 
-    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition">
+    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
       <h3 class="font-bold ">Amazon Clone</h3>
       <p class="text-gray-600 mt-2">E-commerce UI using Tailwind CSS</p>
     </div>
-     <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition">
+     <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
       <h3 class="font-bold ">PW Skills Clone</h3>
       <p class="text-gray-600 mt-2">Educational website UI project</p>
     </div>
 
-    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition">
+    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
       <h3 class="font-bold ">Dashboard UI</h3>
       <p class="text-gray-600 mt-2">Admin panel design practice</p>
     </div>
@@ -122,5 +122,81 @@
   </div>
 
 </section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-blue-600 py-20">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-white">Get In Touch</h2>
+      <p class="text-blue-100 mt-3 font-medium">
+        Have a project in mind or want to collaborate? Feel free to contact me.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-xl p-8 md:p-10">
+
+      <form class="space-y-6">
+
+        <!-- Name -->
+        <div>
+          <label class="block text-gray-700 font-medium mb-2">
+            Full Name
+          </label>
+
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+        </div>
+
+        <!-- Email -->
+        <div>
+          <label class="block text-gray-700 font-medium mb-">
+            Email Address
+          </label>
+
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label class="block text-gray-700 font-medium mb-2">
+            Message
+          </label>
+
+          <textarea
+            rows="5"
+            placeholder="Write your message..."
+            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+          ></textarea>
+        </div>
+
+        <!-- Button -->
+        <button
+          class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-10 text-center">
+
+  <p>© 2026 Naveed Khan | All Rights Reserved</p>
+
+</footer>
 </body>
 </html>
