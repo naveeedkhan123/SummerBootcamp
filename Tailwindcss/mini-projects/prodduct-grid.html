@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <div class="text-center py-10">
+    <h1 class="text-3xl font-bold text-gray-800">Featured Products</h1>
+    <p class="text-gray-500 mt-2">Tailwind Grid Practice</p>
+  </div>
+
+  <!-- Grid Container -->
+  <div class="max-w-6xl mx-auto px-4 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+    <!-- Card 1 -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+
+      <img class="h-48 w-full object-cover"
+        src="https://images.pexels.com/photos/11398246/pexels-photo-11398246.jpeg"
+        alt="product">
+
+      <div class="p-4">
+        <h2 class="font-semibold text-gray-800">Headphones</h2>
+        <p class="text-sm text-gray-500">Wireless Bluetooth</p>
+
+        <div class="flex justify-between mt-3">
+          <span class="font-bold">$49</span>
+          <span class="text-yellow-500">★ 4.5</span>
+        </div>
+
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+
+      <img class="h-48 w-full object-cover"
+        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=60"
+        alt="product">
+
+      <div class="p-4">
+        <h2 class="font-semibold text-gray-800">Smart Watch</h2>
+        <p class="text-sm text-gray-500">Fitness tracker</p>
+
+        <div class="flex justify-between mt-3">
+          <span class="font-bold">$99</span>
+          <span class="text-yellow-500">★ 4.8</span>
+        </div>
+
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+
+      <img class="h-48 w-full object-cover"
+        src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=60"
+        alt="product">
+
+      <div class="p-4">
+        <h2 class="font-semibold text-gray-800">Sneakers</h2>
+        <p class="text-sm text-gray-500">Running shoes</p>
+
+        <div class="flex justify-between mt-3">
+          <span class="font-bold">$79</span>
+          <span class="text-yellow-500">★ 4.6</span>
+        </div>
+
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
