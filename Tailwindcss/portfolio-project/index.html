@@ -6,7 +6,7 @@
     <title>My Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body   class="bg-[#0B1120] text-white">
+<body   class="bg-[#0B1120] text-white scroll-smooth">
     
 
     <!-- Navbar -->
@@ -16,11 +16,11 @@
     <h1 class="text-2xl font-bold text-blue-600 cursor-pointer">Naveed.dev</h1>
 
     <ul class="hidden md:flex gap-6 font-medium">
-      <li class="hover:text-blue-600 cursor-pointer">Home</li>
-      <li class="hover:text-blue-600 cursor-pointer">About</li>
-      <li class="hover:text-blue-600 cursor-pointer">Skills</li>
-      <li class="hover:text-blue-600 cursor-pointer">Projects</li>
-      <li class="hover:text-blue-600 cursor-pointer">Contact</li>
+      <li class="hover:text-blue-600 cursor-pointer text-gray-950">Home</li>
+      <li class="hover:text-blue-600 cursor-pointer text-gray-950">About</li>
+      <li class="hover:text-blue-600 cursor-pointer text-gray-950">Skills</li>
+      <li class="hover:text-blue-600 cursor-pointer text-gray-950">Projects</li>
+      <li class="hover:text-blue-600 cursor-pointer text-gray-950">Contact</li>
     </ul>
 
      <a href="#contact" class="bg-blue-600 text-white active:scale-95 px-4 py-2 rounded-lg hover:bg-blue-700">
@@ -34,7 +34,7 @@
 <section class="pt-28 max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
 
   <div class="flex-1">
-    <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+    <h2 class="text-4xl md:text-5xl font-bold animate-bounce">
       Hi, I'm <span class="text-blue-600">Naveed Khan</span>
     </h2>
 
@@ -43,11 +43,11 @@
     </p>
 
     <div class="mt-6 flex gap-4">
-      <a href="projects" class="bg-blue-600 text-white px-5 py-3 rounded-lg  hover:bg-sky-950 font-medium">
+      <a href="projects" class="bg-blue-600 text-white px-5 py-3 rounded-lg  hover:bg-sky-950 font-medium hover:scale-105 transition duration-300">
         View Projects
       </a>
 
-      <a href="contact" class="border-2 border-blue-600 text-blue-600 bg-sky-200 px-5 py-3 rounded-lg hover:bg-blue-50 font-bold text-1xl active:scale-95">
+      <a href="contact" class="border-2 border-blue-600 text-blue-600 bg-sky-200 px-5 py-3 rounded-lg hover:bg-blue-50 font-bold text-1xl active:scale-95 hover:scale-105 transition duration-300">
         Contact Me
       </a>
     </div>
@@ -90,7 +90,7 @@
     <div class="space-y-8">
 
       <!-- HTML -->
-      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg transition duration-300 hover:scale-105">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-xl font-semibold text-white">HTML</h3>
           <span class="text-orange-400 font-bold">95%</span>
@@ -102,7 +102,7 @@
       </div>
 
       <!-- CSS -->
-      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg transition duration-300 hover:scale-105">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-xl font-semibold text-white">CSS</h3>
           <span class="text-blue-400 font-bold">90%</span>
@@ -114,7 +114,7 @@
       </div>
     
       <!-- Tailwind CSS -->
-      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg transition duration-300 hover:scale-105">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-xl font-semibold text-white">Tailwind CSS</h3>
           <span class="text-cyan-400 font-bold">85%</span>
@@ -126,7 +126,7 @@
       </div>
 
       <!-- JavaScript -->
-      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg transition duration-300 hover:scale-105">
         <div class="flex justify-between items-center mb-4">
           <h3 class="text-xl font-semibold text-white">JavaScript</h3>
           <span class="text-yellow-400 font-bold">75%</span>
