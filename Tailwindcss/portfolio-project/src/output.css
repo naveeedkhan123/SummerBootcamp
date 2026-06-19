@@ -543,6 +543,13 @@
       }
     }
   }
+  .hover\:bg-sky-300 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-sky-300);
+      }
+    }
+  }
   .hover\:bg-sky-400 {
     &:hover {
       @media (hover: hover) {

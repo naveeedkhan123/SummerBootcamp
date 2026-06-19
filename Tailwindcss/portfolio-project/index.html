@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body  class="bg-gray-50 text-gray-800">
     
@@ -43,11 +43,11 @@
     </p>
 
     <div class="mt-6 flex gap-4">
-      <a href="#projects" class="bg-blue-600 text-white px-5 py-3 rounded-lg  hover:bg-sky-950 font-medium">
+      <a href="projects" class="bg-blue-600 text-white px-5 py-3 rounded-lg  hover:bg-sky-950 font-medium">
         View Projects
       </a>
 
-      <a href="#contact" class="border-2 border-blue-600 text-blue-600 px-5 py-3 rounded-lg hover:bg-blue-50 font-bold text-1xl active:scale-95">
+      <a href="contact" class="border-2 border-blue-600 text-blue-600 px-5 py-3 rounded-lg hover:bg-blue-50 font-bold text-1xl active:scale-95">
         Contact Me
       </a>
     </div>
@@ -75,27 +75,71 @@
 
 </section>
 
-<!-- Skills -->
-<section class="bg-gray-100 py-20">
+<!-- Skills Section -->
+<section  class="bg-sky-950 py-24">
+  <div class="max-w-5xl mx-auto px-6">
 
-  <div class="max-w-6xl mx-auto px-4">
+  
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-black">Skills</h2>
+      <p class="text-gray-400 font-medium mt-3">
+        Technologies I use to build beautiful web experiences.
+      </p>
+    </div>
 
-    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    <div class="space-y-8">
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-         <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">HTML</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">CSS</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">Tailwind</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">JavaScript</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">GitHub</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">Excel</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">MySQL</div>
-      <div class="bg-sky-200 p-4 rounded-xl shadow font-medium hover:bg-sky-400 cursor-pointer ">Problem Solving</div>
+      <!-- HTML -->
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-semibold text-white">HTML</h3>
+          <span class="text-orange-400 font-bold">95%</span>
+        </div>
+
+        <div class="w-full h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full w-[95%] bg-gradient-to-r from-orange-400 to-orange-600 rounded-full"></div>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-semibold text-white">CSS</h3>
+          <span class="text-blue-400 font-bold">90%</span>
+        </div>
+
+        <div class="w-full h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full w-[90%] bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
+        </div>
+      </div>
+    
+      <!-- Tailwind CSS -->
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-semibold text-white">Tailwind CSS</h3>
+          <span class="text-cyan-400 font-bold">85%</span>
+        </div>
+
+        <div class="w-full h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full w-[85%] bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full"></div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-[#111827] p-6 rounded-3xl shadow-lg hover:scale-[1.02] transition duration-300">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-semibold text-white">JavaScript</h3>
+          <span class="text-yellow-400 font-bold">75%</span>
+        </div>
+
+        <div class="w-full h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full w-[75%] bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full"></div>
+        </div>
+      </div>
 
     </div>
 
   </div>
-
 </section>
 
 <!-- Projects -->
@@ -105,16 +149,16 @@
 
   <div class="grid md:grid-cols-3 gap-6">
 
-    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
+    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-300 cursor-pointer">
       <h3 class="font-bold ">Amazon Clone</h3>
       <p class="text-gray-600 mt-2">E-commerce UI using Tailwind CSS</p>
     </div>
-     <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
+     <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-300 cursor-pointer">
       <h3 class="font-bold ">PW Skills Clone</h3>
       <p class="text-gray-600 mt-2">Educational website UI project</p>
     </div>
 
-    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-400 cursor-pointer">
+    <div class="bg-sky-200 p-6 rounded-xl shadow hover:shadow-lg transition hover:bg-sky-300 cursor-pointer">
       <h3 class="font-bold ">Dashboard UI</h3>
       <p class="text-gray-600 mt-2">Admin panel design practice</p>
     </div>
@@ -145,10 +189,10 @@
             Full Name
           </label>
 
-          <input
+          <input 
             type="text"
             placeholder="Enter your name"
-            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full border-2 font-medium border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
         </div>
 
@@ -161,7 +205,7 @@
           <input
             type="email"
             placeholder="Enter your email"
-            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full border-2 font-medium border-sky-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
         </div>
 
@@ -174,7 +218,7 @@
           <textarea
             rows="5"
             placeholder="Write your message..."
-            class="w-full border-2 border-sky-300 rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full border-2 font-medium border-sky-300 rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
         </div>
 
