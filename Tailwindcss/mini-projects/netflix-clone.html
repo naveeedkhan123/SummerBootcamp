@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix UI Clone</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+
+    <!-- Navbar -->
+    <header class="flex justify-between items-center px-6 py-4 bg-black/90 sticky top-0 z-50">
+
+        <h1 class="text-red-600 text-3xl font-bold">NETFLIX</h1>
+
+        <div class="flex gap-6 text-sm text-gray-300">
+            <a href="#" class="hover:text-white">Home</a>
+            <a href="#" class="hover:text-white">TV Shows</a>
+            <a href="#" class="hover:text-white">Movies</a>
+            <a href="#" class="hover:text-white">New & Popular</a>
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-[70vh] flex items-center px-10">
+
+        <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48"
+            class="absolute inset-0 w-full h-full object-cover opacity-40">
+
+        <div class="relative z-10 max-w-xl">
+            <h2 class="text-5xl font-bold">Stranger Things</h2>
+            <p class="text-gray-300 mt-4">
+                When a young boy disappears, his mother must confront terrifying forces.
+            </p>
+
+            <div class="mt-6 flex gap-4">
+                <button class="bg-white text-black px-6 py-2 rounded hover:bg-gray-200">
+                    ▶ Play
+                </button>
+
+                <button class="bg-gray-600/70 px-6 py-2 rounded hover:bg-gray-500">
+                    More Info
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Rows -->
+    <section class="px-6 py-10 space-y-10">
+
+        <!-- Row 1 -->
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Trending Now</h2>
+
+            <div class="flex gap-4 overflow-x-auto scrollbar-hide">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition duration-300 object-cover"
+                    src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition duration-300 object-cover"
+                    src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition duration-300 object-cover"
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition duration-300 object-cover"
+                    src="https://images.unsplash.com/photo-1517602302552-471fe67acf66">
+
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Top Rated</h2>
+
+            <div class="flex gap-4 overflow-x-auto">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition object-cover"
+                    src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition object-cover"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc3ikdbcRF-J4hytmeBB2eKdSLAvvcBD5p2hCF80GhFQ&s=10">
+
+                <img class="w-40 h-56 rounded-lg hover:scale-110 transition object-cover"
+                    src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78">
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
