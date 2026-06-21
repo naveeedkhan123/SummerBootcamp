@@ -330,3 +330,12 @@ Logical !
     let b = 5;
 
     console.log("!(6<5) =", !(a===6));}
+
+
+    // Ternory Operators
+
+    {
+        let age = 24 ;
+       let result= age>= 18 ?"adult" : "not adult";
+console.log(result);
+    }

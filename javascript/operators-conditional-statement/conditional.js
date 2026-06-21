@@ -97,3 +97,36 @@ if (age<18) {
         console.log("university student");
     }
 }
+
+
+// Practice 
+
+{
+alert("hello");
+
+
+let num =prompt("Enter a number");
+if (num%5===0){
+    console.log(num," is mulitple of 5");
+} else {
+    console.log(num,"is not multiple of 5");
+}
+
+}
+
+
+
+{
+    let score =70;
+    if (score>=90 && score<=100) {
+        console.log("your Grade is A");
+    }else if(score>=70 && score<=89) {
+        console.log("your Grade is B");
+    }else if (score>=60 && score<=69) {
+        console.log("your Grade is C");
+    }else if(score>=50 && score<=59) {
+        console.log("your Grade is D");
+    }else if(score>=0 && score<=49) {
+        console.log("fail");
+    }
+}
