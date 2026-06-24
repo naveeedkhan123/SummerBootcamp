@@ -1,0 +1,16 @@
+body{
+    background-color: darkblue;
+    color: antiquewhite;
+}
+
+#heading{
+    background-color: green;
+}
+
+.myClass{
+    background-color: black;
+}
+
+#myId{
+    background-color: blueviolet;
+}
