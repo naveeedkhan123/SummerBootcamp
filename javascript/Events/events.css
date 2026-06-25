@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid purple;
+}
+
+#mode {
+    font-size: 23px;
+    color: white;
+    background-color: darkred;
+    border: 3px solid aqua;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 15px;
+}
