@@ -1,0 +1,41 @@
+.productSection {
+    background-color: aqua;
+    padding: 50px;
+    margin: 20px;
+    color: rgb(46, 5, 46);
+    
+}
+
+.productSection h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
+.productMid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display : grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+
+.productItems {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    background-color: aliceblue;
+}
+
+.productItems img {
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+.productItems h3{
+    text-align: center;
+    padding: 10px 0;
+}
